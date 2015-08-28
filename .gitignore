@@ -1,0 +1,8 @@
+/node_modules/
+/bower_components/
+/output/
+example/output.png
+example/node_modules/
+test/node_modules/
+.psci_modules
+.psci
