@@ -1,0 +1,32 @@
+{
+  "name": "purescript-imagediff",
+  "homepage": "https://github.com/cryogenian/purescript-imagediff",
+  "authors": [
+    "Maxim Zimaliev <zimaliev@gmail.com>"
+  ],
+  "description": "purescript bindings to imaged-diff library",
+  "keywords": [
+    "imagediff",
+    "imagemagick",
+    "image"
+  ],
+  "license": "Apache 2.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "purescript-aff": "^0.12.0",
+    "purescript-console": "^0.1.1",
+    "purescript-eff": "^0.1.0",
+    "purescript-maybe": "^0.3.4",
+    "purescript-prelude": "^0.1.2"
+  },
+  "resolutions": {
+    "purescript-aff": "^0.12.0",
+    "purescript-transformers": "^0.7.1"
+  }
+}
