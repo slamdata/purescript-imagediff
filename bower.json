@@ -1,6 +1,6 @@
 {
   "name": "purescript-imagediff",
-  "homepage": "https://github.com/cryogenian/purescript-imagediff",
+  "homepage": "https://github.com/slamdata/purescript-imagediff",
   "authors": [
     "Maxim Zimaliev <zimaliev@gmail.com>"
   ],
@@ -11,6 +11,10 @@
     "image"
   ],
   "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/slamdata/purescript-imagediff.git"
+  },
   "ignore": [
     "**/.*",
     "node_modules",
@@ -19,7 +23,7 @@
     "tests"
   ],
   "dependencies": {
-    "purescript-aff": "^0.13.0",
+    "purescript-aff": "^0.16.0",
     "purescript-console": "^0.1.1",
     "purescript-eff": "^0.1.0",
     "purescript-maybe": "^0.3.4",
