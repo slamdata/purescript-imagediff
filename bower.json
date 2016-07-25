@@ -1,32 +1,24 @@
 {
   "name": "purescript-imagediff",
   "homepage": "https://github.com/slamdata/purescript-imagediff",
+  "license": "Apache-2.0",
   "authors": [
     "Maxim Zimaliev <zimaliev@gmail.com>"
   ],
-  "description": "purescript bindings to imaged-diff library",
-  "keywords": [
-    "imagediff",
-    "imagemagick",
-    "image"
-  ],
-  "license": "Apache-2.0",
   "repository": {
     "type": "git",
     "url": "git://github.com/slamdata/purescript-imagediff.git"
   },
   "ignore": [
     "**/.*",
-    "node_modules",
     "bower_components",
+    "node_modules",
+    "output",
     "test",
-    "tests"
+    "bower.json",
+    "package.json"
   ],
   "dependencies": {
-    "purescript-aff": "^0.16.0",
-    "purescript-console": "^0.1.1",
-    "purescript-eff": "^0.1.0",
-    "purescript-maybe": "^0.3.4",
-    "purescript-prelude": "^0.1.2"
+    "purescript-aff": "^1.1.0"
   }
 }
